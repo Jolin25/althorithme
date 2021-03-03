@@ -288,7 +288,10 @@ public class SinglyLinkedList {
         return r;
 
     }
-    
+    /**
+     * knowledge point:
+     * TODO 为什么不把这个方法写成Node的构造函数呢
+     */
     public static Node createNode(int value) {
         return new Node(value, null);
     }
